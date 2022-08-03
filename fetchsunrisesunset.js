@@ -11,6 +11,6 @@ const sunrise = data.results.sunrise;
 const sunset = data.results.sunset;
 const solar_noon = data.results.solar_noon;
 
-console.log(sunrise);
-console.log(sunset);
-console.log(solar_noon);
+console.log(`Sunrise: ${sunrise}`);
+console.log(`Sunset: ${sunset}`);
+console.log(`Solar Noon: ${solar_noon}`);
