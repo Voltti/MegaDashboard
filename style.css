@@ -1,6 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata:wght@300;400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&family=Playfair+Display:ital@0;1&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-size: 120%;
+    font-family: 'Abel', sans-serif;
+    /* background-image: url('https://source.unsplash.com/1600x900/?forest'); */
+    background: url('https://source.unsplash.com/1600x900/?sunrise,Espoo');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parent {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    margin-top: -5%;
+  }
+  
+  .cardShake {
+    background: #000;
+    color: white;
+    padding: 0.8em 2em 2em 2em;
+    border-radius: 30px;
+    width: 450px;
+    height: 600px;
+    margin: 1em;
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cardSun {
+    background: #000;
+    color: white;
+    padding: 0.5em 2em 2em 2em;
+    border-radius: 30px;
+    width: 100%;
+    width: 450px;
+    height: 300px;
+    margin: 1em;
+    opacity: 0.8;
+  }
+
+  .sun {
+    line-height: 2rem;
+  }
+
+  p {
+    margin: 0.6rem;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 1px #000000;
+    margin-top: -10px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+  
+  button:hover {
+    background: #7c7c7c6b;
+  }
+  
+  h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
 
 
-.parent {
+
+
+/*.parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -8,7 +149,7 @@
     grid-row-gap: 0px;
 }
 
-.container {
+ .container {
     display: grid; 
     grid-template-columns: 0.5fr 1fr 0.5fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr; 
@@ -18,4 +159,4 @@
       ". . ."
       ". . ."
       ". . ."; 
-  }
+  } */
