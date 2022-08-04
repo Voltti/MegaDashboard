@@ -3,7 +3,7 @@ global.fetch = fetch;
 import { createApi } from "unsplash-js";
 
 const unsplash = createApi({
-  accessKey: "dq1gfuvj9MDQcJV4WZc748Vgm-rkth8eCaba0owmzc0",
+  accessKey: "ACCESS KEY HERE",
 });
 
 unsplash.photos
