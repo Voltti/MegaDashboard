@@ -1,9 +1,5 @@
-
-//document.getElementById('parent').style.backgroundImage = "url(https://source.unsplash.com/1600x900/?forest,landscape)"
-//document.body.style.backgroundImage='https://source.unsplash.com/1600x900/?forest,landscape'
-
 function getPoem() {
-    fetch('https://salty-caverns-72878.herokuapp.com/https://jqgbekpmw8.execute-api.us-west-1.amazonaws.com/MegaDashAggregator')
+    fetch('urltoapi')
         .then(res => res.json())
         .then(data => {
             const poem = data.shakespeare;
@@ -17,7 +13,7 @@ function getPoem() {
 }
 
 function getWeather() {
-    fetch('https://salty-caverns-72878.herokuapp.com/https://jqgbekpmw8.execute-api.us-west-1.amazonaws.com/MegaDashAggregator')
+    fetch('urltoapi')
         .then(res => res.json())
         .then(data => {
             const weather = data.weather;
@@ -29,7 +25,7 @@ function getWeather() {
 } 
 
 function fetchSun() {
-    fetch('https://salty-caverns-72878.herokuapp.com/https://jqgbekpmw8.execute-api.us-west-1.amazonaws.com/MegaDashAggregator')
+    fetch('urltoapi')
         .then(res => res.json())
         .then(data => {
             console.log(data.sun)
@@ -41,7 +37,7 @@ function fetchSun() {
 }
 
 function getRad() {
-    fetch('https://salty-caverns-72878.herokuapp.com/https://jqgbekpmw8.execute-api.us-west-1.amazonaws.com/MegaDashAggregator')
+    fetch('urltoapi')
         .then(res => res.json())
         .then(data => {
             const rad = data.radiation;
@@ -71,12 +67,3 @@ getPoem()
 getWeather()
 fetchSun()
 getRad()
-
-
-
-
-// https://salty-caverns-72878.herokuapp.com/
-
-//https://vsjycb3uvprtnb5uz56af3n4sa0ljayo.lambda-url.us-west-1.on.aws/
-
-//https://salty-caverns-72878.herokuapp.com/http://poetrydb.org/title/Ozymandias/lines.json
