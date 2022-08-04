@@ -9,8 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "aws-sdk": "^2.1188.0",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "unsplash-js": "^7.0.15"
   }
 }
