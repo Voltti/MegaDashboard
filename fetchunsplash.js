@@ -3,7 +3,9 @@ import fetch from "node-fetch";
 global.fetch = fetch;
 import { createApi } from "unsplash-js";
 
-const unsplash = createApi({ accessKey: process.env.API_ACCESS_KEY });
+const unsplash = createApi({
+  accessKey: dq1gfuvj9MDQcJV4WZc748Vgm - rkth8eCaba0owmzc0,
+});
 
 unsplash.photos.getRandom({}).then((result) => {
   if (result.errors) {
